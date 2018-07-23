@@ -1,7 +1,15 @@
 export default {
   init() {
-    // JavaScript to be fired on all pages
 
+  //Removes 'show' class in desktop mode, in case it was toggled and then resized
+
+  $(window).resize(function () {
+    var windowSize = '';
+    windowSize += $(document).width();
+    if (windowSize > 990) {
+      $('.navbar-collapse').removeClass('show');
+    }
+  });
 
   },
   finalize() {

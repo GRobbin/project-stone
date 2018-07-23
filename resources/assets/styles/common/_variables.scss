@@ -1,6 +1,8 @@
 /** Import Bootstrap functions */
 @import "~bootstrap/scss/functions";
 
+$pushy-path: "~@cmyee/pushy/scss/pushy.scss";
+
 $theme-colors: (
   primary: #888
 );
@@ -9,3 +11,5 @@ $font-family-sans-serif: 'Lato', sans-serif;
 $font-family-serif: 'Crimson Text', serif;
 $headings-font-family: 'Crimson Text', serif;
 $nav-link-padding-y: 1rem;
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;

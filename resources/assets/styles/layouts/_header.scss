@@ -30,12 +30,27 @@
   width: 100%;
 }
 
-nav.navbar-collapse.collapse.show {
-  right: 0;
-  top: 60px;
+nav.navbar-collapse.collapsing .navbar-nav {
+  float: none;
+  text-align: center;
 }
 
-button.menu-btn.hidden-md-up {
+nav.navbar-collapse.collapse.show .navbar-nav {
+  float: none;
+  text-align: center;
+}
+
+nav.navbar-collapse.collapsing .navbar-nav li {
+  margin: 0 -15px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+nav.navbar-collapse.collapse.show .navbar-nav li {
+  margin: 0 -15px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+button.navbar-toggler {
   background: none;
   border: none;
   cursor: pointer;
