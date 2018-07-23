@@ -1,0 +1,20 @@
+@include media-breakpoint-up(lg) {
+  .menu-btn {
+    visibility: hidden;
+  }
+}
+
+.pushy-right .navbar-nav {
+  padding: 1rem;
+  float: left;
+}
+
+.pushy-right .navbar-logo {
+  padding: 1rem;
+  width: 100%;
+}
+
+.pushy-right img {
+  margin: auto;
+  display: block;
+}

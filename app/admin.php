@@ -32,11 +32,11 @@ function customize_register($wp_customize) {
     'section'  => 'sage_logo_section',
     'settings' => 'sage_logo',
 ) ) );
-  $wp_customize->add_setting( 'sage_logo_affix' );
+  $wp_customize->add_setting( 'sage_logo_footer' );
   $wp_customize->add_control( new \WP_Customize_Image_Control( $wp_customize, 'sage_logo_affix', array(
   'label'    => __( 'Logo Menu', 'sage' ),
   'section'  => 'sage_logo_section',
-  'settings' => 'sage_logo_affix',
+  'settings' => 'sage_logo_footer',
 ) ) );
 }
 add_action('customize_register', __NAMESPACE__ . '\\customize_register');

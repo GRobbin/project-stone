@@ -103,6 +103,11 @@
     "yargs": "~11.0.0"
   },
   "dependencies": {
+    "@cmyee/pushy": "git+https://github.com/christophery/pushy.git",
+    "@fortawesome/fontawesome-svg-core": "^1.2.1",
+    "@fortawesome/free-brands-svg-icons": "^5.1.1",
+    "@fortawesome/free-regular-svg-icons": "^5.1.1",
+    "@fortawesome/free-solid-svg-icons": "^5.1.1",
     "bootstrap": "v4.1.0",
     "gulp": "^3.9.1",
     "jquery": "^3.3.1",

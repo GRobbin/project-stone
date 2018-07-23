@@ -2,6 +2,38 @@
 # yarn lockfile v1
 
 
+"@cmyee/pushy@git+https://github.com/christophery/pushy.git":
+  version "1.1.2"
+  resolved "git+https://github.com/christophery/pushy.git#6e1ce3733ee127c496d6f80d2bf80d1a6f3c8710"
+
+"@fortawesome/fontawesome-common-types@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.1.tgz#b919b31ab1b42cd2aadab5fa45934347c30ee316"
+
+"@fortawesome/fontawesome-svg-core@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.1.tgz#ae203b7563a8b6d7ebf8fe66253b92bd7a7a8a08"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.1"
+
+"@fortawesome/free-brands-svg-icons@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.1.1.tgz#395738a44de465a4d66e08c32da3ff640192f030"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.1"
+
+"@fortawesome/free-regular-svg-icons@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.1.1.tgz#c73a91d3dfb19dd01f710d4a523a92fdcd09db9d"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.1"
+
+"@fortawesome/free-solid-svg-icons@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.1.1.tgz#35ebdb374c48fbad4b1812fe20314422d729fc9d"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.1"
+
 "@webassemblyjs/ast@1.5.13":
   version "1.5.13"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.5.13.tgz#81155a570bd5803a30ec31436bc2c9c0ede38f25"

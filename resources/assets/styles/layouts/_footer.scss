@@ -1,0 +1,22 @@
+footer.content-info {
+  padding: 2rem 0;
+}
+
+.content-info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@include media-breakpoint-up(md) {
+  .content-info ul {
+    margin-top: 44px;
+  }
+
+  .content-info {
+    h3 {
+      + div {
+        margin-top: -33px;
+      }
+    }
+  }
+}

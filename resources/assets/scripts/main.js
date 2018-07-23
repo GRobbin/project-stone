@@ -1,5 +1,8 @@
 // import external dependencies
 import 'jquery';
+import '@cmyee/pushy/js/pushy.min.js';
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { faBars} from '@fortawesome/free-solid-svg-icons';
 
 // Import everything from autoload
 import "./autoload/**/*"
@@ -22,3 +25,9 @@ const routes = new Router({
 
 // Load Events
 jQuery(document).ready(() => routes.loadEvents());
+
+// add the imported icons to the library
+library.add(faBars);
+
+// tell FontAwesome to watch the DOM and add the SVGs when it detects icon markup
+dom.watch();

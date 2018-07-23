@@ -2,5 +2,10 @@
 @import "~bootstrap/scss/functions";
 
 $theme-colors: (
-  primary: #525ddf
+  primary: #888
 );
+
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-family-serif: 'Crimson Text', serif;
+$headings-font-family: 'Crimson Text', serif;
+$nav-link-padding-y: 1rem;

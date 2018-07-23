@@ -4,4 +4,39 @@
 
 .banner .nav a {
   @extend .nav-link;
+
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.navbar-logo {
+  float: left;
+  padding: 0.7rem 0;
+}
+
+.navbar-logo img {
+  height: 50px;
+}
+
+.nav {
+  float: right;
+}
+
+.navbar {
+  position: inherit;
+}
+
+.menu-primary-nav-container {
+  width: 100%;
+}
+
+nav.navbar-collapse.collapse.show {
+  right: 0;
+  top: 60px;
+}
+
+button.menu-btn.hidden-md-up {
+  background: none;
+  border: none;
+  cursor: pointer;
 }

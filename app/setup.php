@@ -96,6 +96,10 @@ add_action('widgets_init', function () {
         'name'          => __('Third footer', 'sage'),
         'id'            => 'sidebar-footer-3'
     ] + $config);
+    register_sidebar([
+    'name'          => __('Mobile menu', 'sage'),
+    'id'            => 'sidebar-mobile-menu'
+] + $config);
 });
 
 /**
