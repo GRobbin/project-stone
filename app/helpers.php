@@ -160,3 +160,12 @@ function disable_wp_emojicons()
     add_filter('tiny_mce_plugins', 'disable_emojicons_tinymce');
 }
 add_action('init', __NAMESPACE__ . '\\disable_wp_emojicons');
+
+/**
+ * Disable wp_embed
+ */
+function my_deregister_scripts()
+{
+    wp_deregister_script('wp-embed');
+}
+add_action('wp_footer', __NAMESPACE__ . '\\my_deregister_scripts');
