@@ -15,21 +15,6 @@
       {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav']) !!}
     @endif
   </nav>
-  {{-- <div class="site-overlay"></div>
-    <nav class="pushy pushy-right">
-      @if (has_nav_menu('mobile_navigation'))
-        {!! wp_nav_menu(['theme_location' => 'mobile_navigation', 'menu_class' => 'nav navbar-nav']) !!}
-      @endif
-      <div class="contact">
-      @php dynamic_sidebar('sidebar-mobile-menu') @endphp
-      </div> --}}
-      {{-- @if (get_theme_mod('sage_logo_footer'))
-      <div class="navbar-logo">
-        <a class="brand" href="{{ home_url('/') }}">
-        <img src='{{ get_theme_mod('sage_logo_footer') }}' alt='{{ get_bloginfo('name', 'display') }}'>
-        </a>
-      @endif
-      </div> --}}
       @if ( get_theme_mod( 'sage_social_facebook' ))
       <div class="social facebook"><a href '{{ get_theme_mod('sage_social_facebook') }}'> <i class="fa fa-facebook" aria-hidden="true"></i></a></div>
       @endif
