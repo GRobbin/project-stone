@@ -1,4 +1,4 @@
-<header class="banner navbar navbar-expand-lg navbar-light bg-light">
+<header class="banner navbar navbar-expand-lg navbar-light bg-navbar">
   <div class="container">
       @if (get_theme_mod('sage_logo'))
         <div class="navbar-logo">

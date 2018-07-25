@@ -2,9 +2,12 @@
 @import "~bootstrap/scss/functions";
 
 $theme-colors: (
-  primary: #888
+  primary: #fff,
+  navbar: #e9ecef,
+  front-button: rgba(249, 147, 20, 0.92)
 );
 
+$body-bg: #ececec;
 $font-family-sans-serif: 'Lato', sans-serif;
 $font-family-serif: 'Crimson Text', serif;
 $headings-font-family: 'Crimson Text', serif;
@@ -13,3 +16,11 @@ $navbar-dark-toggler-icon-bg: none;
 $navbar-light-toggler-icon-bg: none;
 $navbar-padding-y: 0;
 $navbar-padding-x: 0;
+
+//Container media sizes
+$container-max-widths: (
+  sm: 540px,
+  md: 1060px,
+  lg: 1140px,
+  xl: 1170px
+);

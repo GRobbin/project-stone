@@ -99,7 +99,7 @@ add_action('widgets_init', function () {
     register_sidebar([
     'name'          => __('Mobile menu', 'sage'),
     'id'            => 'sidebar-mobile-menu'
-] + $config);
+    ] + $config);
 });
 
 /**
