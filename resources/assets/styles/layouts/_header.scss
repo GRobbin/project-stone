@@ -7,6 +7,7 @@
 
   text-transform: uppercase;
   font-weight: 300;
+  font-family: 'Crimson Text', serif;
   color: color-yiq(theme-color("navbar"));
 }
 
@@ -25,6 +26,7 @@
 
 .navbar {
   position: inherit;
+  padding: 4px 0;
 }
 
 .menu-primary-nav-container {
